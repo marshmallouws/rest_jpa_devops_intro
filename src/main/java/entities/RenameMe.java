@@ -11,6 +11,7 @@ import javax.persistence.NamedQuery;
 @Entity
 @NamedQuery(name = "RenameMe.deleteAllRows", query = "DELETE from RenameMe")
 public class RenameMe implements Serializable {
+    //This is a comment
 
     private static final long serialVersionUID = 1L;
     @Id
